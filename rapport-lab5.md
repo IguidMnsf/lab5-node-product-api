@@ -29,14 +29,16 @@ Lors d'un essai local, `GET /api/products` a renvoyé le statut HTTP `200`. La c
 
 Le projet fournit une API modulaire, testée et documentée avec Express. Le stockage en mémoire répond aux besoins du laboratoire, mais ne conserve pas les changements après l'arrêt de l'application.
 
-## 5. Captures à joindre
+## 5. Captures des exécutions
 
-Les captures doivent être prises après exécution réelle sur l'ordinateur utilisé pour la démonstration :
+**Création d'un produit dans Postman — HTTP 201 :**
 
-1. Terminal PowerShell avec `npm run dev` et le serveur démarré.
-2. Postman affichant une création réussie (`201 Created`) et le JSON retourné.
-3. Navigateur affichant Swagger UI à `http://localhost:3000/api-docs`.
-4. Facultatif : résultats de `npm test`.
-5. Page GitHub du projet ou résultat du workflow GitHub Actions.
+![Création d'un produit dans Postman](captures-rapport/05-postman-creation.png)
 
-**Aucune capture d'écran n'est intégrée à ce rapport.**
+**Documentation Swagger de l'API locale :**
+
+![Documentation Swagger](captures-rapport/01-swagger-local.png)
+
+**Tests automatisés — `npm test` :**
+
+![Résultat des tests Node.js](captures-rapport/03-terminal-npm-test.png)
